@@ -1,0 +1,8 @@
+string = ('Hallo world! Or underworld!')
+print(type(string))
+print(string)
+splited_string = string.split()
+print(type(splited_string))
+print(splited_string)
+count = len(splited_string)
+print(count)
