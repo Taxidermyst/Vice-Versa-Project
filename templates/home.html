@@ -21,13 +21,11 @@
 <h1>Vice Versa!</h1>
 
 <!-- <label for="text">Input some text down here:</label> -->
-
-<textarea id="text_ar" name="text_ar"
+<form action="{% url 'reverse' %}">
+<textarea id="text_ar" name="usertext"
           rows="10" cols="60">
-Put some text here
 </textarea>
-<p><input type="Submit" value="Reverse!"></p>
-<!-- <p><button>Reverse!</button> -->
-
+<p><input type="submit" value="Reverse!"></p>
+</form>
 </body>
 </html>
